@@ -2,31 +2,27 @@
 ## Problem
 Loans can be expensive and it is important to figure out how to budget for them. To this you need to know
 
-How much money you will be paying each month
-How much the loan will cost you
+  - How much money you will be paying each month
+  - How much the loan will cost you
 
-Your program should ask the user for the following information in this order
+Your program should ask the user for the following information in this order: 
 
-The amount they are borrowing
-The annual (yearly) interest rate
-The number of months the payments are to be made over
-After collecting the above information your program report the monthly payment as well as the total cost of the loan.
+1. The amount they are borrowing
+2. The annual (yearly) interest rate
+3. The number of months the payments are to be made over
 
-## Important Considerations
-Note that the annual (yearly) interest rate is given but then payments are made every month. This is a very common way that loans are specified but in order for our formula to work the interest rate and the number of payments need to be in "the same units." Either annual(yearly) interest rate and number of years to pay or monthly interest and number of months to pay.
-
-We will be doing the second option: monthly interest and number of months to pay. To convert from annual interest rate to monthly interest rate divide the annual interest rate by 12.
+After collecting the above information the program reports the monthly payment as well as the total cost of the loan.
 
 ## Requirements
-Your Program must compile with the -Wall, -Werror, and -Wextra options enabled
-Use doubles and not floats for all numbers that could have a decimal point in them
-Print all double to 2 decimal places
-Assumptions
-All input is valid
-As stated before, we will be assuming that payments are made monthly (the norm) so you will need to divide the annual interest rate by 12 to get the monthly interest rate to use in your calculations.
-The examples provided do not represent all possible input you can receive so make sure to test thoroughly on your machine
-## Examples
+  - Your Program must compile with the -Wall, -Werror, and -Wextra options enabled
+  - Use doubles and not floats for all numbers that could have a decimal point in them
+  - Print all double to 2 decimal places
+  - 
+## Assumptions
+  - All input is valid
+  - Assume that payments are made monthly (the norm) so you will need to divide the annual interest rate by 12 to get the monthly interest rate to use in your calculations.
 
+# Examples
 
 ## Example 1
 Please enter the amount of money you borrowed: $1000
