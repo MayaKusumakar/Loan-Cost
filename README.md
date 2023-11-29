@@ -17,7 +17,7 @@ After collecting the above information the program reports the monthly payment a
   - Your Program must compile with the -Wall, -Werror, and -Wextra options enabled
   - Use doubles and not floats for all numbers that could have a decimal point in them
   - Print all double to 2 decimal places
-  - 
+
 ## Assumptions
   - All input is valid
   - Assume that payments are made monthly (the norm) so you will need to divide the annual interest rate by 12 to get the monthly interest rate to use in your calculations.
